@@ -1,12 +1,12 @@
 title: "Ben George"
 description: ""
-url: "https://bg-l2norm.github.io"
+url: "https://beeegee.github.io"
 baseurl: ""
 
 author:
   name: "Ben George"
-  github: "bg-l2norm"
-
+  github: "beeegee"
+  
 permalink: /blog/:year/:month/:day/:title/
 excerpt_separator: "<!--more-->"
 
@@ -29,7 +29,7 @@ defaults:
       layout: default
 
 giscus:
-  repo: "bg-l2norm/bg-l2norm.github.io"
+  repo: "beeegee/beeegee.github.io"
   repo_id: ""
   category: "Announcements"
   category_id: ""
