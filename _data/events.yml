@@ -1,8 +1,8 @@
-- id: event-1
-  title: "[Event title]"
-  date: "[Date]"
-  summary: "[One-line summary]"
+- id: in-work
+  title: "In work"
+  date: "2026-07-26"
+  summary: "Website is currently in work. Redirecting to LinkedIn."
   body: |
-    [Event details]
-  url: ""
-  link_label: "[Link label]"
+    This website is currently in work. Please visit my LinkedIn profile.
+  url: "https://www.linkedin.com/in/ben-g-a00584250/"
+  link_label: "LinkedIn Profile"

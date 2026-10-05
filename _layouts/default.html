@@ -4,6 +4,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | escape }}">
+    {% if page.redirect_url %}
+    <meta http-equiv="refresh" content="5;url={{ page.redirect_url }}">
+    {% endif %}
     <title>{% if page.url == '/' %}{{ site.title }}{% elsif page.title %}{{ page.title }} · {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
     <link rel="stylesheet" href="{{ '/assets/css/site.css?v=20260726-3' | relative_url }}">
   </head>
